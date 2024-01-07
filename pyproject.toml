@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "machine-learning-specialization-coursera"
+version = "0.1.0"
+description = ""
+authors = ["Trung Dang <dangtrung96@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.28.0"
+pandas = "^2.1.4"
+matplotlib = "^3.8.2"
+ipympl = "^0.9.3"
+yapf = "^0.40.2"
+
+[tool.yapf]
+based_on_style = "facebook"
+blank_line_before_nested_class_or_def = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

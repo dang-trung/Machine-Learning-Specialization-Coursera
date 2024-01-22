@@ -6,13 +6,17 @@ authors = ["Trung Dang <dangtrung96@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.9,<3.12"
 ipykernel = "^6.28.0"
 pandas = "^2.1.4"
 matplotlib = "^3.8.2"
 ipympl = "^0.9.3"
 yapf = "^0.40.2"
+<<<<<<< HEAD
 scikit-learn = "^1.4.0"
+=======
+tensorflow-io-gcs-filesystem = "0.31.0"
+>>>>>>> 07ee5781edd58062a740a0817916d8f44744f3c7
 
 [tool.yapf]
 based_on_style = "facebook"
